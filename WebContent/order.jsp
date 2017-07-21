@@ -23,6 +23,7 @@ Select book:
 Quantity:<input type="number" name="quantity" required></br>
 
 <button type="submit"> submit</button>
+<a href="Listoforder.jsp">List of order</a>
 </form>
 </body>
 </html>

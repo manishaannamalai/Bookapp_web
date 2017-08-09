@@ -13,16 +13,11 @@ public class ConnectionUtil {
 
 	public static void main(String[] args) throws Exception {
 
-		//Connection con = getConnection();
-		//System.out.println(con);
+		
 
 	}
 
-	/*public static Connection getConnection() throws ClassNotFoundException, SQLException {
-		Class.forName("com.mysql.jdbc.Driver");
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bookapp_db", "root", "root");
-		return con;
-	}*/
+	
 	public static DataSource getDataSource() {
 		 
         BasicDataSource ds = new BasicDataSource();

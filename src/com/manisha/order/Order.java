@@ -11,6 +11,20 @@ public class Order {
 	
 	private int quantity;
 	private LocalDateTime orderDate ;
+	private String Bookname;
+	public String getBookname() {
+		return Bookname;
+	}
+	public void setBookname(String bookname) {
+		Bookname = bookname;
+	}
+	public String getUsername() {
+		return Username;
+	}
+	public void setUsername(String username) {
+		Username = username;
+	}
+	private String Username;
 	public int getId() {
 		return id;
 	}
@@ -50,7 +64,7 @@ public class Order {
 	@Override
 	public String toString() {
 		return "Order [id=" + id + ", userId=" + userId + ", bookId=" + bookId + ", status=" + status + ", quantity="
-				+ quantity + ", orderDate=" + orderDate + "]";
+				+ quantity + ", orderDate=" + orderDate + ", Bookname=" + Bookname + ", Username=" + Username + "]";
 	}
 	
 	

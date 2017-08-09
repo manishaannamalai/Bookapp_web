@@ -27,9 +27,9 @@ public class ConnectionUtil {
 		 
         BasicDataSource ds = new BasicDataSource();
         ds.setDriverClassName("com.mysql.jdbc.Driver");
-        ds.setUrl("jdbc:mysql://localhost:3306/bookapp_db");
-        ds.setUsername("root");
-        ds.setPassword("root");     
+        ds.setUrl("jdbc:mysql://35.154.162.204:3337//kvcet_manisha_db");
+        		ds.setUsername("kvcet_manisha");
+        ds.setPassword("kvcet_manisha");            
         return ds;
  
     }
